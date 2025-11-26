@@ -15,10 +15,7 @@ module.exports = (sequelize, DataTypes) => {
                 type: DataTypes.STRING,
                 allowNull: false,
             },
-            penerbit: {
-                type: DataTypes.STRING,
-                allowNull: false,
-            },
+ 
             deskripsi: {
                 type: DataTypes.TEXT,
                 allowNull: true,
